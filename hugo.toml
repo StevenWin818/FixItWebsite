@@ -288,9 +288,9 @@ enableEmoji = true
   # FixIt 0.2.15 | CHANGED FixIt theme version
   version = "0.3.X" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
   # site description
-  description = "小文の小站"
+  description = "11"
   # site keywords
-  keywords = ["Hugo", "FixIt"]
+  keywords = []
   # site default theme ["light", "dark", "auto"]
   defaultTheme = "auto"
   # which hash function used for SRI, when empty, no SRI is used
@@ -320,7 +320,7 @@ enableEmoji = true
 
   # Author Configuration
   [params.author]
-    name = "小文"
+    name = "Steven 小文"
     email = "awen0810@hotmail.com"
     link = ""
     avatar = ""
@@ -395,9 +395,9 @@ enableEmoji = true
     # Header title config
     [params.header.title]
       # URL of the LOGO
-      logo = ""
+      logo = "images/logo.png"
       # title name
-      name = ""
+      name = "小文の小站"
       # you can add extra information before the name (HTML format is supported), such as icons
       pre = ""
       # you can add extra information after the name (HTML format is supported), such as icons
@@ -407,9 +407,9 @@ enableEmoji = true
     # FixIt 0.2.12 | NEW Header subtitle config
     [params.header.subtitle]
       # subtitle name
-      name = ""
+      name = "欢迎来到小文的小站"
       # whether to use typeit animation for subtitle name
-      typeit = false
+      typeit = true
 
   # FixIt 0.2.18 | NEW Breadcrumb config
   [params.breadcrumb]
@@ -428,7 +428,7 @@ enableEmoji = true
     # whether to show the author
     author = true
     # Site creation year
-    since = ""
+    since = "2024"
     # FixIt 0.2.12 | NEW Public network security only in China (HTML format is supported)
     gov = ""
     # ICP info only in China (HTML format is supported)
@@ -438,15 +438,15 @@ enableEmoji = true
     # FixIt 0.3.0 | NEW whether to show Hugo and theme info
     [params.footer.powered]
       enable = true
-      hugoLogo = true
-      themeLogo = true
+      hugoLogo = false
+      themeLogo = false
     # FixIt 0.2.17 | CHANGED Site creation time
     [params.footer.siteTime]
       enable = false
       animate = true
       icon = "fa-solid fa-heartbeat"
       pre = ""
-      value = "" # e.g. "2021-12-18T16:15:22+08:00"
+      value = "2024-04-07T22:37:00+8:00" # e.g. "2021-12-18T16:15:22+08:00"
     # FixIt 0.2.17 | NEW footer lines order, optional values: ["first", 0, 1, 2, 3, 4, 5, "last"]
     [params.footer.order]
       powered = 0
@@ -526,7 +526,7 @@ enableEmoji = true
 
   # FixIt 0.2.16 | CHANGED Social config about the author
   [params.social]
-    GitHub = ""
+    GitHub = "https://Github.com/StevenWin818"
     Linkedin = ""
     Twitter = ""
     Instagram = ""
@@ -1057,8 +1057,8 @@ enableEmoji = true
 
   # FixIt 0.2.14 | NEW GitHub banner in the top-right or top-left corner
   [params.githubCorner]
-    enable = false
-    permalink = "https://github.com/hugo-fixit/FixIt"
+    enable = true
+    permalink = "https://github.com/StevenWin818"
     title = "View source on GitHub"
     position = "right" # ["left", "right"]
 
